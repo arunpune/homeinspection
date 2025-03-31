@@ -1,0 +1,113 @@
+{
+    "detailedInspection": [
+        {
+            "area": "Roof",
+            "mediaReference": "Image 1",
+            "timestamp": "2024-02-20T10:00:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 2049",
+            "referenceSection": "7.3.2",
+            "recommendation": "No immediate action required. Maintain regular inspections for any signs of damage or deterioration."
+        },
+        {
+            "area": "External Walls",
+            "mediaReference": "Image 2",
+            "timestamp": "2024-02-20T10:05:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 4773.2",
+            "referenceSection": "5.4.2",
+            "recommendation": "No immediate action required. Regular cleaning and maintenance as needed."
+        },
+        {
+            "area": "Foundation",
+            "mediaReference": "Image 3",
+            "timestamp": "2024-02-20T10:10:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 2870",
+            "referenceSection": "4.2.3",
+            "recommendation": "No immediate action required. Monitor for any signs of settlement or cracking."
+        },
+        {
+            "area": "Internal Walls",
+            "mediaReference": "Image 4",
+            "timestamp": "2024-02-20T10:15:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 3700",
+            "referenceSection": "5.3.4",
+            "recommendation": "No immediate action required. Regular inspections for any signs of damage or deterioration."
+        },
+        {
+            "area": "Plumbing",
+            "mediaReference": "Video 1",
+            "timestamp": "2024-02-20T10:20:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS/NZS 3500",
+            "referenceSection": "7.4.2",
+            "recommendation": "No immediate action required. Ensure regular maintenance and testing of all plumbing fixtures and systems."
+        },
+        {
+            "area": "Electrical",
+            "mediaReference": "Video 2",
+            "timestamp": "2024-02-20T10:25:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS/NZS 3000",
+            "referenceSection": "6.3.9",
+            "recommendation": "No immediate action required. Ensure regular inspections and testing of all electrical systems and components."
+        }
+    ],
+    "executiveSummary": {
+        "overallCondition": "Good",
+        "criticalIssues": [],
+        "recommendedActions": [
+            "Regular inspections for any signs of damage or deterioration.",
+            "Regular cleaning and maintenance as needed.",
+            "Monitor for any signs of settlement or cracking.",
+            "Ensure regular maintenance and testing of all plumbing fixtures and systems.",
+            "Ensure regular inspections and testing of all electrical systems and components."
+        ]
+    },
+    "maintenanceNotes": {
+        "recurringIssues": [],
+        "preventiveRecommendations": [
+            "Annual roof inspection",
+            "Regular cleaning of external walls",
+            "Regular inspection of foundation for cracks or settlement",
+            "Annual inspection of all plumbing systems",
+            "Annual inspection of all electrical systems"
+        ],
+        "maintenanceSchedule": [
+            {
+                "frequency": "Annual",
+                "tasks": [
+                    "Roof inspection",
+                    "Gutter cleaning",
+                    "Downspout inspection"
+                ]
+            },
+            {
+                "frequency": "Bi-Annual",
+                "tasks": [
+                    "External wall cleaning",
+                    "Foundation inspection"
+                ]
+            }
+        ],
+        "costConsiderations": [
+            "Budget for annual roof inspection",
+            "Budget for bi-annual wall cleaning and foundation inspection",
+            "Budget for periodic plumbing and electrical maintenance"
+        ]
+    }
+}
