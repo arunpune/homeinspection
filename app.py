@@ -14,10 +14,12 @@ st.set_page_config(
 
 # Sidebar for API key input
 with st.sidebar:
+    st.title("Step 1: Configuration")
+    st.markdown("Please enter your Gemini API key and the paths of the building standards folder and sample examples folder.")
     st.title("Configuration")
     api_key = st.text_input("Enter Gemini API Key", type="password")
-    standards_dir = st.text_input("Path to Building Standards", value="building_standards")
-    examples_dir = st.text_input("Path to Examples", value="examples")
+    standards_dir = st.text_input("Path of Building Standards folder", value="building_standards")
+    examples_dir = st.text_input("Path of Sample Examples folder", value="examples")
 
     if st.button("Initialize Inspector"):
         if not api_key:
@@ -33,6 +35,7 @@ with st.sidebar:
 
 # Main app
 st.title("🏠 AI Home Inspection System")
+
 st.markdown("Upload an image or a video of your home for a detailed inspection report")
 
 if 'inspector' not in st.session_state:
@@ -42,6 +45,8 @@ if 'inspector' not in st.session_state:
 inspector = st.session_state.inspector
 
 # Choose Image or Video
+st.title("Step 2: Upload Media")
+st.markdown("Upload an image or a video of your home for a detailed inspection report")
 choice = st.radio("Choose media type:", ("Image", "Video"))
 
 # File upload for multiple images
