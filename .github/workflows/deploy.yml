@@ -29,4 +29,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Streamlit App
-        run: curl -s https://home-inspection.streamlit.app/ > /dev/null || echo "Streamlit app is down"
+        run: curl -s https://homeinspection-can.streamlit.app/ > /dev/null || echo "Streamlit app is down"
