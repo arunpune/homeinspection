@@ -1,0 +1,9 @@
+streamlit 
+google-generativeai 
+python-dotenv 
+opencv-python
+opencv-python-headless
+
+# api_key = "AIzaSyC8sS6C3oVET_kbjJrqn7PCPCxiYeAFUp0"
+# standards_dir = "D:\Canspirit\project6\Datasets\building_standards"
+# examples_dir = "D:\Canspirit\project6\Datasets\examples" 

@@ -1,76 +1,103 @@
 {
     "detailedInspection": [
         {
-            "area": "Subfloor Structure",
-            "mediaReference": "IMG_4436 Large.jpeg",
-            "timestamp": "2024-02-26T12:00:00Z",
-            "condition": "Deteriorated",
-            "complianceStatus": "Non-Compliant",
-            "issuesFound": [
-                "Significant cracking in brick piers",
-                "Missing mortar in brickwork",
-                "Loose and unstable brickwork",
-                "Soil accumulation under the floor",
-                "Potential termite damage"
-            ],
-            "referenceDoc": "AS 2870-2006 Residential Slabs and Footings",
-            "referenceSection": "Clause 3.2",
-            "recommendation": "Immediate structural assessment by a qualified engineer. Repair or replacement of damaged brick piers. Mortar repointing. Stabilize loose brickwork. Remove soil accumulation and address potential moisture issues. Termite inspection and treatment if necessary."
+            "area": "Roof",
+            "mediaReference": "Image 1",
+            "timestamp": "2024-02-20T10:00:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 2049",
+            "referenceSection": "7.2.6",
+            "recommendation": "No immediate action required"
         },
         {
-            "area": "Plumbing",
-            "mediaReference": "IMG_4436 Large.jpeg",
-            "timestamp": "2024-02-26T12:00:00Z",
-            "condition": "Unknown",
-            "complianceStatus": "Unknown",
-            "issuesFound": [
-                "PVC pipe runs close to damaged brickwork"
-            ],
-            "referenceDoc": "AS/NZS 3500 Plumbing and Drainage",
-            "referenceSection": "Clause 4.1",
-            "recommendation": "Inspect plumbing for damage and leaks. Relocate pipes if necessary to ensure structural integrity and prevent damage."
+            "area": "External Walls",
+            "mediaReference": "Image 2",
+            "timestamp": "2024-02-20T10:05:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 3700",
+            "referenceSection": "5.3.3",
+            "recommendation": "No immediate action required"
+        },
+        {
+            "area": "Internal Walls",
+            "mediaReference": "Image 3",
+            "timestamp": "2024-02-20T10:10:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 3700",
+            "referenceSection": "5.3.4",
+            "recommendation": "No immediate action required"
+        },
+        {
+            "area": "Foundation",
+            "mediaReference": "Image 4",
+            "timestamp": "2024-02-20T10:15:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 2870",
+            "referenceSection": "4.2.3",
+            "recommendation": "No immediate action required"
+        },
+        {
+            "area": "Drainage",
+            "mediaReference": "Video 1",
+            "timestamp": "2024-02-20T10:20:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 3500",
+            "referenceSection": "3.3.3",
+            "recommendation": "No immediate action required"
+        },
+        {
+            "area": "Termite Management",
+            "mediaReference": "Image 5",
+            "timestamp": "2024-02-20T10:25:00Z",
+            "condition": "Good",
+            "complianceStatus": "Compliant",
+            "issuesFound": [],
+            "referenceDoc": "AS 3660.1",
+            "referenceSection": "3.4.2",
+            "recommendation": "No immediate action required"
         }
     ],
     "executiveSummary": {
-        "overallCondition": "Poor",
-        "criticalIssues": [
-            "Significant structural issues in the subfloor",
-            "Potential for collapse"
-        ],
-        "recommendedActions": [
-            "Immediate structural assessment",
-            "Repair or replacement of damaged piers",
-            "Termite inspection and treatment"
-        ]
+        "overallCondition": "Good",
+        "criticalIssues": [],
+        "recommendedActions": []
     },
     "maintenanceNotes": {
-        "recurringIssues": [
-            "Soil accumulation under the floor",
-            "Potential for moisture damage"
-        ],
+        "recurringIssues": [],
         "preventiveRecommendations": [
-            "Regular inspection of subfloor structure",
-            "Maintain good drainage around the building",
-            "Termite inspections"
+            "Regular roof inspections (annually)",
+            "Regular gutter cleaning (twice yearly)",
+            "Termite inspection (every 5 years)"
         ],
         "maintenanceSchedule": [
             {
                 "frequency": "Annually",
                 "tasks": [
-                    "Termite inspection",
-                    "Visual inspection of subfloor structure"
+                    "Roof inspection",
+                    "Gutter cleaning"
                 ]
             },
             {
                 "frequency": "Every 5 years",
                 "tasks": [
-                    "Detailed structural assessment by a qualified engineer"
+                    "Termite inspection"
                 ]
             }
         ],
         "costConsiderations": [
-            "Structural repairs can be expensive",
-            "Termite treatment costs vary"
+            "Budget for roof repairs as needed",
+            "Budget for gutter cleaning",
+            "Budget for termite treatment as needed"
         ]
     }
 }
